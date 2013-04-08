@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC46F3C71710972C00528127 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC46F3C61710972C00528127 /* UIKit.framework */; };
+		FC46F3C91710972C00528127 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC46F3C81710972C00528127 /* Foundation.framework */; };
+		FC46F3CB1710972C00528127 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC46F3CA1710972C00528127 /* CoreGraphics.framework */; };
+		FC46F3D11710972C00528127 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC46F3CF1710972C00528127 /* InfoPlist.strings */; };
+		FC46F3D31710972C00528127 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC46F3D21710972C00528127 /* main.m */; };
+		FC46F3D71710972C00528127 /* MySettingsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC46F3D61710972C00528127 /* MySettingsAppDelegate.m */; };
+		FC46F3D91710972C00528127 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FC46F3D81710972C00528127 /* Default.png */; };
+		FC46F3DB1710972C00528127 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC46F3DA1710972C00528127 /* Default@2x.png */; };
+		FC46F3DD1710972C00528127 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC46F3DC1710972C00528127 /* Default-568h@2x.png */; };
+		FC46F3E01710972C00528127 /* MySettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC46F3DF1710972C00528127 /* MySettingsViewController.m */; };
+		FC46F3E31710972C00528127 /* MySettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC46F3E11710972C00528127 /* MySettingsViewController.xib */; };
+		FC46F3EA1710A34500528127 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FC46F3E91710A34500528127 /* Settings.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC46F3C31710972B00528127 /* MySettings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySettings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC46F3C61710972C00528127 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FC46F3C81710972C00528127 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FC46F3CA1710972C00528127 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FC46F3CE1710972C00528127 /* MySettings-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MySettings-Info.plist"; sourceTree = "<group>"; };
+		FC46F3D01710972C00528127 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC46F3D21710972C00528127 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC46F3D41710972C00528127 /* MySettings-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MySettings-Prefix.pch"; sourceTree = "<group>"; };
+		FC46F3D51710972C00528127 /* MySettingsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySettingsAppDelegate.h; sourceTree = "<group>"; };
+		FC46F3D61710972C00528127 /* MySettingsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySettingsAppDelegate.m; sourceTree = "<group>"; };
+		FC46F3D81710972C00528127 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FC46F3DA1710972C00528127 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FC46F3DC1710972C00528127 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FC46F3DE1710972C00528127 /* MySettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySettingsViewController.h; sourceTree = "<group>"; };
+		FC46F3DF1710972C00528127 /* MySettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySettingsViewController.m; sourceTree = "<group>"; };
+		FC46F3E21710972C00528127 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MySettingsViewController.xib; sourceTree = "<group>"; };
+		FC46F3E91710A34500528127 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC46F3C01710972B00528127 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC46F3C71710972C00528127 /* UIKit.framework in Frameworks */,
+				FC46F3C91710972C00528127 /* Foundation.framework in Frameworks */,
+				FC46F3CB1710972C00528127 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC46F3BA1710972B00528127 = {
+			isa = PBXGroup;
+			children = (
+				FC46F3E91710A34500528127 /* Settings.bundle */,
+				FC46F3CC1710972C00528127 /* MySettings */,
+				FC46F3C51710972B00528127 /* Frameworks */,
+				FC46F3C41710972B00528127 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC46F3C41710972B00528127 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC46F3C31710972B00528127 /* MySettings.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC46F3C51710972B00528127 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC46F3C61710972C00528127 /* UIKit.framework */,
+				FC46F3C81710972C00528127 /* Foundation.framework */,
+				FC46F3CA1710972C00528127 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC46F3CC1710972C00528127 /* MySettings */ = {
+			isa = PBXGroup;
+			children = (
+				FC46F3D51710972C00528127 /* MySettingsAppDelegate.h */,
+				FC46F3D61710972C00528127 /* MySettingsAppDelegate.m */,
+				FC46F3DE1710972C00528127 /* MySettingsViewController.h */,
+				FC46F3DF1710972C00528127 /* MySettingsViewController.m */,
+				FC46F3E11710972C00528127 /* MySettingsViewController.xib */,
+				FC46F3CD1710972C00528127 /* Supporting Files */,
+			);
+			path = MySettings;
+			sourceTree = "<group>";
+		};
+		FC46F3CD1710972C00528127 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC46F3CE1710972C00528127 /* MySettings-Info.plist */,
+				FC46F3CF1710972C00528127 /* InfoPlist.strings */,
+				FC46F3D21710972C00528127 /* main.m */,
+				FC46F3D41710972C00528127 /* MySettings-Prefix.pch */,
+				FC46F3D81710972C00528127 /* Default.png */,
+				FC46F3DA1710972C00528127 /* Default@2x.png */,
+				FC46F3DC1710972C00528127 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC46F3C21710972B00528127 /* MySettings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC46F3E61710972C00528127 /* Build configuration list for PBXNativeTarget "MySettings" */;
+			buildPhases = (
+				FC46F3BF1710972B00528127 /* Sources */,
+				FC46F3C01710972B00528127 /* Frameworks */,
+				FC46F3C11710972B00528127 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySettings;
+			productName = MySettings;
+			productReference = FC46F3C31710972B00528127 /* MySettings.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC46F3BB1710972B00528127 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MySettings;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "RVC Student";
+			};
+			buildConfigurationList = FC46F3BE1710972B00528127 /* Build configuration list for PBXProject "MySettings" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FC46F3BA1710972B00528127;
+			productRefGroup = FC46F3C41710972B00528127 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC46F3C21710972B00528127 /* MySettings */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC46F3C11710972B00528127 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC46F3D11710972C00528127 /* InfoPlist.strings in Resources */,
+				FC46F3D91710972C00528127 /* Default.png in Resources */,
+				FC46F3DB1710972C00528127 /* Default@2x.png in Resources */,
+				FC46F3DD1710972C00528127 /* Default-568h@2x.png in Resources */,
+				FC46F3E31710972C00528127 /* MySettingsViewController.xib in Resources */,
+				FC46F3EA1710A34500528127 /* Settings.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC46F3BF1710972B00528127 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC46F3D31710972C00528127 /* main.m in Sources */,
+				FC46F3D71710972C00528127 /* MySettingsAppDelegate.m in Sources */,
+				FC46F3E01710972C00528127 /* MySettingsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC46F3CF1710972C00528127 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC46F3D01710972C00528127 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FC46F3E11710972C00528127 /* MySettingsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC46F3E21710972C00528127 /* en */,
+			);
+			name = MySettingsViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC46F3E41710972C00528127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC46F3E51710972C00528127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC46F3E71710972C00528127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MySettings/MySettings-Prefix.pch";
+				INFOPLIST_FILE = "MySettings/MySettings-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FC46F3E81710972C00528127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MySettings/MySettings-Prefix.pch";
+				INFOPLIST_FILE = "MySettings/MySettings-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC46F3BE1710972B00528127 /* Build configuration list for PBXProject "MySettings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC46F3E41710972C00528127 /* Debug */,
+				FC46F3E51710972C00528127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC46F3E61710972C00528127 /* Build configuration list for PBXNativeTarget "MySettings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC46F3E71710972C00528127 /* Debug */,
+				FC46F3E81710972C00528127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC46F3BB1710972B00528127 /* Project object */;
+}
